@@ -1,21 +1,31 @@
+#coolFanText {
+  background-color: black;
+}
+#coolFanText p {
+  color: white;
+  padding: 20px 20% 20px 20%;
+  font-size: 15px;
+}
+
 main {
-  width: 90%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
 
-h1, h2, p 
-{
+body {
+  margin: 0;
+}
+
+h1, h2, p {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-p
-{
-  font-size: 14px;
+h1 {
+  font-size: 27;
 }
 
-h2
-{
+h2 {
   margin-top: 25px;
   margin-bottom: 35px;
 }
@@ -26,17 +36,26 @@ h2
   margin-bottom: 20px;
 }
 
-#coolFan
-{
+#coolFan {
   width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-#xboxVid
-{
-    width: 90%;
-    margin-top: 30px
+#xboxVid {
+  width: 90%;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  #coolFanText {
+    background-color: black;
+  }
+  #coolFanText p {
+    color: white;
+    padding: 20px 20% 20px 20%;
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
